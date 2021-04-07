@@ -1,14 +1,17 @@
 .catalog {
-  display: flex;
+  display: grid;
   justify-content: center;
   font-family: $font;
 }
 
 .catalog__container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: $card-width * $card-count + $width-between-cards * 8 ;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($grid-min-width, 1fr));
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  width: $container-width;
 }
 
 .card {
