@@ -5,3 +5,5 @@ $card-count: 4;
 $width-between-cards: 24px;
 $white-color: #fff;
 $font: roboto, sans-serif;
+$container-width: $card-width * $card-count + $width-between-cards * 8;
+$grid-min-width: $container-width / $card-count;
