@@ -30,13 +30,11 @@
     margin-top: 29px;
     width: 160px;
     height: 134px;
-    transition-duration: 400ms;
-    transition-timing-function: ease;
+    transition: transform 400ms ease;
 
     &:hover {
       border: 3px solid #f3f3f3;
       transform: scale(1.25, 1.43);
-      transition-duration: 400ms;
     }
   }
 
