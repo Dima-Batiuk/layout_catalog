@@ -36,6 +36,7 @@
       text-decoration: none;
       color: rgb(0, 0, 0);
       text-transform: uppercase;
+      transition-duration: 0.5s;
     }
   
   }
@@ -48,6 +49,7 @@
 
 .nav__link_input:hover {
   color: $decoration-color;
+  transition-duration: 0.5s;
 }
 
 .is-active {
