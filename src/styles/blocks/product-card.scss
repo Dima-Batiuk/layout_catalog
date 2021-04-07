@@ -30,6 +30,12 @@
     margin-top: 29px;
     width: 160px;
     height: 134px;
+    transition: transform 400ms ease;
+
+    &:hover {
+      border: 3px solid #f3f3f3;
+      transform: scale(1.25, 1.43);
+    }
   }
 
   &__description {
@@ -121,7 +127,7 @@
   color: #fff;
   justify-content: center;
   align-items: center;
-  
+  transition: duration 0.5s, background-color 0.5s;
   border: 1px solid #00acdc;
 
   &__margin--normalize {
